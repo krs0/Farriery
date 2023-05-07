@@ -6,6 +6,8 @@
 			"siege" :
 			{
 				"shooter" : "faGruntSoldier",
+				"towerIconSmall" : "farriery/icons/arrowTowersSmall",
+				"towerIconLarge" : "farriery/icons/arrowTowersLarge",
 				"imagePrefix" : "farriery/siege/sgfg",
 				"gate" :
 				{
