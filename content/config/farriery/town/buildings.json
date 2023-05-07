@@ -257,7 +257,7 @@
 						"gold" : 1000
 					},
 					"type" : "attackVisitingBonus",
-					"requires" : [ "allOf", ["blacksmith"],["fort"] ],
+					"requires" : [ "allOf", ["blacksmith"], ["fort"] ],
 					"id" : 17
 				},
 				"special2" :
@@ -268,7 +268,7 @@
 						"ore" : 5,
 						"gold" : 3000
 					},
-					"requires" :  [ "allOf", ["blacksmith"],["resourceSilo"] ],
+					"requires" :  [ "allOf", ["blacksmith"], ["resourceSilo"] ],
                     "produce": { "gold": 1000 }, 
 					"id" : 21
 				},
@@ -277,7 +277,19 @@
 					"description" : "The Tesla's Coil increases weekly creature generation by 50 percent, adds 5000 gold per day during the siege of the castle by the enemy, the hero of the garrison receives the Thunder of the Titan in the spellbook and increases the spell power of Air Magic by 50%.",
 					"name" : "Tesla's Coil",
 					"id" : 26,
-                                       "bonuses": [ { "type" : "AIR_SPELL_DMG_PREMY", "val" : 50, "valueType" : "BASE_NUMBER" }, { "subtype" : "spell.titanBolt", "type" : "SPELL", "val" : 3, "valueType" : "BASE_NUMBER" } ],
+					"bonuses": [
+						{
+							"type" : "AIR_SPELL_DMG_PREMY",
+							"val" : 50,
+							"valueType" : "BASE_NUMBER"
+						},
+						{
+							"subtype" : "spell.titanBolt",
+							"type" : "SPELL",
+							"val" : 3,
+							"valueType" : "BASE_NUMBER"
+						}
+					],
 					"mode" : "grail"
 				},
 				"dwellingLvl1" :
@@ -298,7 +310,7 @@
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
-                                                "ore" : 5
+                        "ore" : 5
 					},
 					"requires" : [ "dwellingLvl1" ],
 					"id" : 31
@@ -346,8 +358,8 @@
 						"gold" : 4500,
 						"ore" : 5,
 						"wood" : 5,
-                                                "gems" : 2,
-                                                "crystal" : 2,
+                        "gems" : 2,
+                        "crystal" : 2,
 						"sulfur" : 2,
 						"mercury" : 4
 					},
@@ -363,8 +375,7 @@
 						"wood" : 10,
 						"ore" : 10,
 						"sulfur" : 5,
-						"crystal" : 5,
-
+						"crystal" : 5
 					},
 					"requires" : [ "dwellingLvl6" ],
 					"id" : 36
@@ -463,7 +474,7 @@
 					"cost" : {
 						"gold" : 20000, 
 						"ore" : 5,
-                                                "wood" : 5,
+                        "wood" : 5,
 						"sulfur" : 15,
 						"mercury" : 15
 					},
