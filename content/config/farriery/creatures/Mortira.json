@@ -11,10 +11,10 @@
 		"aiValue" : 1850,
 		"special" : true,
 		"attack" : 19,
-             "cost": 
-            {
-              "gold": 5000
-            },
+        "cost": 
+		{
+        	"gold": 5000
+        },
 		"damage" :
 		{
 			 "max" : 14,
@@ -48,13 +48,12 @@
 					"upperY" : -93
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
 			}
 		},
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 132,
-                "shots" : 24,
+        "shots" : 24,
 		"sound" :
 		{
 			"killed": "farriery/CANNKILL.wav",
@@ -64,20 +63,20 @@
 		"speed" : 0,
 		"abilities" :
 		{
-        		"shooter" :
+        	"shooter" :
 			{
 				"type" : "SHOOTER"
 			},
 			"deathStare" : 
-			{ 
+			{
+				"type" : "DEATH_STARE",
 				"subtype" : 0, 
-				"type" : "DEATH_STARE", 
 				"val" : 25 
 			},
 		      "noRetaliation" :
 			{
 				"type" : "NO_RETALIATION",
-				 "val" : 0,
+				 "val" : 0
 			},
 			"warmachine" :
 			{

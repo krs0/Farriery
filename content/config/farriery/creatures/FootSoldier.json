@@ -62,7 +62,7 @@
 			"killed" : "farriery/S198KILL.wav",
 			"move"   : "farriery/S198MOVE.wav",
 			"wince"  : "farriery/S198WNCE.wav",
-                        "shoot"  : "farriery/S198SHOT.wav"
+            "shoot"  : "farriery/S198SHOT.wav"
 		},
 		"speed" : 6,
 		"abilities" :

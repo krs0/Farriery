@@ -70,11 +70,11 @@
 		"speed" : 6,
 		"abilities" :
 		{
-			 "nonliving":
+			"nonliving":
 			{	
 				"type" : "NON_LIVING"
 			},
-                      "noPenalty" :
+            "noPenalty" :
 			{
 				"type" : "NO_MELEE_PENALTY"
 			},

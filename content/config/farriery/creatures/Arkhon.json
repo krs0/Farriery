@@ -59,7 +59,7 @@
 		"speed" : 5,
 		"abilities" :
 		{
-        		"shooter" :
+        	"shooter" :
 			{
 				"type" : "SHOOTER"
 			},
@@ -89,10 +89,10 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.haste",
 				"val" : 3
-                  },
-                  "noMind":
-                  {
-                   "type": "MIND_IMMUNITY"
+        	},
+			"noMind":
+            {
+                "type": "MIND_IMMUNITY"
 			}
 		}
 	}

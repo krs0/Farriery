@@ -55,7 +55,7 @@
 		{
 			"no morale" :
 			{
-				"type" : "NO_MORALE",
+				"type" : "NO_MORALE"
 			},
 			"canfly" :
 			{

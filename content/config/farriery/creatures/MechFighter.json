@@ -54,15 +54,15 @@
 		"speed" : 7,
 		"abilities" :
 		{
-		"no morale" :
+			"no morale" :
 			{
 				"type" : "NO_MORALE"
 			},
 			"castRay" :
 			{
 				"type" : "SPELL_BEFORE_ATTACK",
-				"val" : 40,
 				"subtype" : "spell.disruptingRay",
+				"val" : 40,
 				"addInfo" : 2
 			}
 		}

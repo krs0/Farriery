@@ -38,7 +38,7 @@
 		"growth" : 8,
 		"hitPoints" : 20,
 		"level" : 2,
-		"upgrades":
+		"upgrades" :
 		[
 			"faCyberZombie"
 		],
@@ -53,11 +53,11 @@
 		"speed" : 6,
 		"abilities" :
 		{
-   	     "nonliving":
+			"nonliving" :
 			{	
 				"type" : "NON_LIVING"
 			},    
-		"deathCloundImmunity"	:
+			"deathCloundImmunity" :
 			{
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.deathCloud"

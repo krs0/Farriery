@@ -48,7 +48,7 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			},
+			}
 		},
 		"growth" : 3,
 		"hitPoints" : 55,
@@ -70,11 +70,11 @@
 		"speed" : 5,
 		"abilities" :
 		{
-   	            "nonliving":
+   	        "nonliving":
 			{	
 				"type" : "NON_LIVING"
 	 		},
-                      "noPenalty" :
+            "noPenalty" :
 	 		{
 				"type" : "NO_MELEE_PENALTY"
 			},	

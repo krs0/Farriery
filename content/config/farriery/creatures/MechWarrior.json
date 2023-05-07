@@ -56,8 +56,8 @@
 			"castRay" :
 			{
 				"type" : "SPELL_BEFORE_ATTACK",
-				"val" : 80,
 				"subtype" : "spell.disruptingRay",
+				"val" : 80,
 				"addInfo" : 2
 			}
 		}

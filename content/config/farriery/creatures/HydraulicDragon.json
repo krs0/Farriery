@@ -50,7 +50,7 @@
 		"speed" : 11,
 		"abilities" :
 		{
-                      "nonliving" :
+            "nonliving" :
 			{
 				"type" : "NON_LIVING"
 			},

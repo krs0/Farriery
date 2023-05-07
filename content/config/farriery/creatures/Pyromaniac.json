@@ -15,7 +15,7 @@
 		"aiValue" : 297,
 		"attack" : 10,
 		"hasDoubleWeek" : true,
-                "cost" :
+        "cost" :
 		{
 			"gold" : 250
 		},
