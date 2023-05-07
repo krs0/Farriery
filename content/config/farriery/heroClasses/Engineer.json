@@ -1,46 +1,45 @@
 {
-	"engineer" :
-	{
+	"engineer" : {
 		"name" : "Engineer",
+		"faction" : "farriery",
+		"affinity" : "might",
 		"commander" : "faArkhon",
-		"animation" :
-		{
-			"battle" : 
-			{
+
+		"animation" : {
+			"battle" : {
 				"female" : "farriery/battleEngineer",
 				"male"   : "farriery/battleEngineer"
-			},
+			}
 		},
 
-		"mapObject" : { "templates" : { "default" : { "animation" : "farriery/mapEngineer" } } },
-		
-		"affinity" : "might",
-		
-		"faction" : "farriery",
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "farriery/mapEngineer"
+				}
+			}
+		},
 
-		"primarySkills" :
-		{
+		"primarySkills" : {
 			"attack"     : 0,
 			"defence"    : 4,
 			"spellpower" : 1,
 			"knowledge"  : 1
 		},
-		"lowLevelChance" :
-		{
+		"lowLevelChance" : {
 			"attack"     : 30,
 			"defence"    : 50,
 			"spellpower" : 10,
 			"knowledge"  : 10
 		},
-		"highLevelChance" :
-		{
+		"highLevelChance" : {
 			"attack"     : 30,
 			"defence"    : 30,
 			"spellpower" : 20,
 			"knowledge"  : 20
 		},
-		"secondarySkills" :
-		{
+
+		"secondarySkills" : {
 			"pathfinding"  : 8,
 			"archery"      : 7,
 			"logistics"    : 8,
@@ -70,9 +69,9 @@
 			"resistance"   : 5,
 			"firstAid"     : 6
 		},
+
 		"defaultTavern" : 5,
-		"tavern" :
-		{
+		"tavern" : {
 			"castle"     : 6,
 			"rampart"    : 6,
 			"tower"      : 6,
@@ -82,7 +81,7 @@
 			"stronghold" : 6,
 			"fortress"   : 6,
 			"conflux"    : 6,
-			"farriery"      : 6
+			"farriery"   : 6
 		}
 	}
 }

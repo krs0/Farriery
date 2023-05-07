@@ -1,15 +1,44 @@
 {
 	"technik" : {
-		"affinity" : "magic",
-		"animation" : { "battle" : { "female" : "farriery/battleTechnomage", "male" : "farriery/battleTechnomage" } },
-		"commander" : "faArkhon",
-		"defaultTavern" : 6,
-		"faction" : "farriery",
-		"highLevelChance" : { "attack" : 25, "defence" : 15, "knowledge" : 30, "spellpower" : 30 },
-		"lowLevelChance" : { "attack" : 30, "defence" : 15, "knowledge" : 25, "spellpower" : 30 },
-		"mapObject" : { "templates" : { "default" : { "animation" : "farriery/mapEngineer" } } },
 		"name" : "Technomage",
-		"primarySkills" : { "attack" : 2, "defence" : 0, "knowledge" : 2, "spellpower" : 1 },
+		"faction" : "farriery",
+		"affinity" : "magic",
+		"commander" : "faArkhon",
+
+		"animation" : {
+			"battle" : {
+				"female" : "farriery/battleTechnomage",
+				"male" : "farriery/battleTechnomage"
+			}
+		},
+
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "farriery/mapEngineer"
+				}
+			}
+		},
+
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 0,
+			"knowledge" : 2,
+			"spellpower" : 1
+		},
+		"lowLevelChance" : {
+			"attack" : 30,
+			"defence" : 15,
+			"knowledge" : 25,
+			"spellpower" : 30
+		},
+		"highLevelChance" : {
+			"attack" : 25,
+			"defence" : 15,
+			"knowledge" : 30,
+			"spellpower" : 30
+		},
+
 		"secondarySkills" : {
 			"airMagic" : 3,
 			"archery" : 3,
@@ -41,9 +70,8 @@
 			"firstAid" : 8
 		},
 		
-		
-		"tavern" :
-		{
+		"defaultTavern" : 6,
+		"tavern" : {
 			"castle"     : 6,
 			"rampart"    : 6,
 			"tower"      : 6,
@@ -53,7 +81,7 @@
 			"stronghold" : 6,
 			"fortress"   : 6,
 			"conflux"    : 6,
-			"farriery"      : 6
+			"farriery"   : 6
 		}
 	}
 }
