@@ -46,8 +46,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"berserk" : {
-					"subtype" : "spell.berserk",
 					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.berserk",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				}

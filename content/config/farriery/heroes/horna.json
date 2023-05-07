@@ -44,8 +44,8 @@
 			"bonuses" : {
 				"logistics" : {
 					"targetSourceType" : "SECONDARY_SKILL",
-					"subtype" : 1,
 					"type" : "MOVEMENT",
+					"subtype" : 1,
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
 					"valueType" : "PERCENT_TO_TARGET_TYPE"

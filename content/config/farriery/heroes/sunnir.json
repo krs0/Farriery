@@ -42,8 +42,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"scouting" : {
-					"subtype" : "skill.scouting",
 					"type" : "SECONDARY_SKILL_PREMY",
+					"subtype" : "skill.scouting",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
 					"valueType" : "PERCENT_TO_BASE"

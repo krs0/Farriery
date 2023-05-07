@@ -46,8 +46,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"landMine" : {
-					"subtype" : "spell.landMine",
 					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.landMine",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				}
