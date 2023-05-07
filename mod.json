@@ -45,8 +45,8 @@
 	],
 	"heroClasses" :
 	[
-		"config/farriery/classes/Engineer.json",
-		"config/farriery/classes/Technik.json"
+		"config/farriery/heroClasses/Engineer.json",
+		"config/farriery/heroClasses/Technik.json"
 
 	],
     "artifacts":
