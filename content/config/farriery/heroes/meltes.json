@@ -1,0 +1,53 @@
+{
+	"meltes" :
+	{
+		"class" : "engineer",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Meltes",
+			"biography" : "undetermined.",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "farriery/heroes/meltes/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/meltes/spec-large.bmp",
+			"large" : "farriery/heroes/meltes/portrait-large.bmp",
+			"small" : "farriery/heroes/meltes/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "faGruntSoldier", "min" : 10, "max" : 15 },
+			{ "creature" : "faCyberDead",    "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro",         "min" : 4, "max" : 6}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : -1,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

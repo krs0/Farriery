@@ -1,0 +1,91 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"faBarracks" : {
+				"name" : "Barracks",
+				"creatures" : [[ "faGruntSoldier" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/map/dwellings/dwelling-1.def",
+						"mask" : [ "00V", "0BB", "VAB" ]
+					}
+				}
+			},
+			"faSlaughterhouse" : {
+				"name" : "Slaughterhouse",
+				"creatures" : [[ "faCyberDead" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/map/dwellings/dwelling-2.def",
+						"mask" : [ "000", "0VV", "0BA" ]
+					}
+				}
+			},
+			"faFireBasin" : {
+				"name" : "Fire Basin",
+				"creatures" : [[ "faPyro" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "farriery/map/dwellings/dwelling-3.def",
+						"mask" : [ "0VV", "0BB", "0AB" ]
+					}
+				}
+			},
+			"faAirstrip" : {
+				"name" : "Airstrip",
+				"creatures" : [[ "faSkyFighter" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/map/dwellings/dwelling-4.def",
+						"mask" : [ "VBB", "BAV" ]
+					}
+				}
+			},
+			"faMachineShop" : {
+				"name" : "Exoskeletons Works",
+				"creatures" : [[ "faDroid" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/map/dwellings/dwelling-5.def",
+						"mask" : [ "0VV", "BBB", "BBA" ]
+					}
+				}
+			},
+			"faAncientRefinery" : {
+				"name" : "Scientists' Outpost",
+				"creatures" : [[ "faMechFighter" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/map/dwellings/dwelling-6.def",
+						"mask" : [ "0VV", "BBB", "BBA" ]
+					}
+				}
+			},
+			"faGarage" : {
+				"name" : "Detached Garage",
+				"creatures" : [[ "faMechanicalDragon" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/map/dwellings/dwelling-7.def",
+				"mask" : [ "VVV", "BBB", "VBA" ]
+					}
+				}
+			},
+			
+			"faRancidCave" : {
+				"name" : "Rancid Cave",
+				"creatures" : [[ "faAcidDragon" ]],
+				"guards" : true,
+                 "templates" : {
+					"default" : {
+						"animation" : "farriery/map/dwellings/dwelling-8.def",
+						"mask" : [ "0VV", "VBB", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

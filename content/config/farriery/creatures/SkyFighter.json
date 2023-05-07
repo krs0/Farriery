@@ -1,0 +1,66 @@
+{
+	"faSkyFighter":
+	{
+		"name" :
+		{
+			"plural" : "Sky Fighter",
+			"singular" : "Sky Fighter"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "farriery",
+		"aiValue" : 625,
+		"doubleWide" : true,
+		"attack" : 12,
+        "cost" :
+		{
+			"gold" : 350
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 6
+		},
+		"defense" : 7,
+		"fightValue" : 593,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/Fighter.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/Fighter.def",
+			"iconSmall" : "farriery/iconsSmall/Fighter.bmp",
+			"iconLarge" : "farriery/iconsBig/Fighter.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 4,
+		"hitPoints" : 30,
+		"level" : 4,
+		"upgrades":
+		[
+			"faSkyHunter"
+		],
+		"sound" :
+		{
+			"attack" : "farriery/S206ATTK.wav",
+			"defend" : "farriery/S206DFND.wav",
+			"killed" : "farriery/S206KILL.wav",
+			"move"   : "farriery/S206MOVE.wav",
+			"wince"  : "farriery/S206WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"no morale" :
+			{
+				"type" : "NO_MORALE",
+			},
+			"canfly" :
+			{
+				"type" : "FLYING"
+			}
+		}
+	}
+}

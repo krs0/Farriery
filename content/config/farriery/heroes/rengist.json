@@ -1,0 +1,47 @@
+{
+	"rengist" : 
+	{
+		"class" : "engineer",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Rengist",
+			"biography" : "Jego bratem byl Winston Boragus. Po dojsciu do wladzy Kilgora, Rengist zdal sobie sprawe, ze jesli nie chce podzielic losu swojego brata, to musi opuscic Krewlod. Zdecydowal sie dolaczyc do tworzonej przez Kastore'a armii, liczac na to, ze z pomoca nowej technologii uda mu sie pomscic brata.", 
+			"specialty" :
+			{
+				"description" : "{Protective Droids and Battle Droids}\r\n\r\nIncreases Speed of any Protective Droids or Battle Droids by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Protective Droids",
+				"name" : "Protective Droids"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "farriery/heroes/rengist/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/rengist/spec-large.bmp",
+			"large" : "farriery/heroes/rengist/portrait-large.bmp",
+			"small" : "farriery/heroes/rengist/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "faGruntSoldier", "min" : 10, "max" : 15 },
+			{ "creature" : "faCyberDead",    "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro",         "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "faDroid"
+		}
+	}
+}

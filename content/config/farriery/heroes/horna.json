@@ -1,0 +1,56 @@
+{
+	"horna" :
+	{
+		"class" : "engineer",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Horna",
+			"biography" : "Being an orphan, Horna was raised by druids who put all the children on a strict regimen of chores, study, prayer, and more chores. Today he is at home in the woods under the starry sky, while his lust for freedom has made him the Grove's best scout.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "farriery/heroes/horna/specsmall.bmp",
+			"specialtyLarge" : "farriery/heroes/horna/speclarge.bmp",
+			"large" : "farriery/heroes/horna/portraitlarge.bmp",
+			"small" : "farriery/heroes/horna/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "faGruntSoldier", "min" : 10, "max" : 15 },
+			{ "creature" : "faCyberDead",    "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro",         "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : 1,
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

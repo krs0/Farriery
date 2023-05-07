@@ -1,0 +1,87 @@
+{
+	"faDroid":
+	{
+		"name" :
+		{
+			"plural" : "Land Walkers",
+			"singular" : "Land Walker"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 8
+		},
+		"faction" : "farriery",
+		"aiValue" : 916,
+		"attack" : 12,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 475
+		},
+		"damage" :
+		{
+			 "max" : 12,
+			 "min" : 10
+		},
+		"defense" : 8,
+		"fightValue" : 830,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/Droid.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/Droid.def",
+			"iconSmall" : "farriery/iconsSmall/Droid.bmp",
+			"iconLarge" : "farriery/iconsBig/Droid.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "farriery/battle/projectile/mechShoot.def",
+			        "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+		},
+		"growth" : 3,
+		"hitPoints" : 55,
+		"level" : 5,
+		"upgrades":
+		[
+			"faBattleDroid"
+		],
+		"shots" : 12,
+		"sound" :
+		{
+			"attack" : "farriery/S203ATTK.wav",
+			"defend" : "farriery/S203DFND.wav",
+			"killed" : "farriery/S203KILL.wav",
+			"move"   : "farriery/S203MOVE.wav",
+			"wince"  : "farriery/S203WNCE.wav",
+ 			"shoot"  : "farriery/S203SHOT.wav"                    
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+   	            "nonliving":
+			{	
+				"type" : "NON_LIVING"
+	 		},
+                      "noPenalty" :
+	 		{
+				"type" : "NO_MELEE_PENALTY"
+			},	
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			}	
+		}	
+	}
+}

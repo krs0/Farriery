@@ -1,0 +1,85 @@
+{
+	"faFootSoldier":
+	{
+		"name" :
+		{
+			"plural" : "Foot Soldiers",
+			"singular" : "Foot Soldier"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "farriery",
+		"aiValue" : 55,
+		"attack" : 5,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 60
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 4,
+		"fightValue" : 63,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/CR198.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/footsoldier.def",
+			"iconSmall" : "farriery/iconsSmall/CPrS198F.bmp",
+			"iconLarge" : "farriery/iconsBig/CPrL198B.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "farriery/battle/projectile/SHOT197.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth" : 15,
+		"hitPoints" : 10,
+        "level" : 1,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack" : "farriery/S198ATTK.wav",
+			"defend" : "farriery/S198DFND.wav",
+			"killed" : "farriery/S198KILL.wav",
+			"move"   : "farriery/S198MOVE.wav",
+			"wince"  : "farriery/S198WNCE.wav",
+                        "shoot"  : "farriery/S198SHOT.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+		    "shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 10
+            },
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+            }
+		}	
+	}
+}

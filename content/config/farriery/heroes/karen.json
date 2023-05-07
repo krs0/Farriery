@@ -1,0 +1,57 @@
+{
+	"karen" : 
+	{
+
+		"class" : "technik",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Karen",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "farriery/heroes/karen/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/karen/spec-large.bmp",
+			"large" : "farriery/heroes/karen/portrait-large.bmp",
+			"small" : "farriery/heroes/karen/portrait-small.bmp"
+		},
+
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+                "army" :
+		[
+			{ "creature" : "faGruntSoldier", "min" : 10, "max" : 15 },
+			{ "creature" : "faCyberDead",    "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro",         "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

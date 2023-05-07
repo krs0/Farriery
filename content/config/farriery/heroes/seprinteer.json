@@ -1,0 +1,51 @@
+{
+	"seprinteer" : 
+	{
+		"class" : "technik",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Seprinteer",
+			"biography" : "Seprinteer w mlodosci uczestniczyl w wielu wyprawach wraz z innymi goblinami z Krewlod. W czasie jednej z nich znalazl, ukryty w glebokiej jaskini, miotacz. Bardzo szybko nauczyl sie go obslugiwac. Dzierzac swoja nowa bron mogl wedrowac dokad tylko chcial, bo zaden potwor nie byl dla niego wystarczajacym wyzwaniem. Naturalnym bylo, ze wstapil do armii Kastore'a jako wysokiej rangi przywodca.", 
+			"specialty" :
+			{
+				"description" : "{Grunt Soldiers and Foot Soldiers}\r\n\r\nIncreases Speed of any Grunt Soldiers or Foot Soldiers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Grunt Soldiers",
+				"name" : "Grunt Soldiers"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "farriery/heroes/seprinteer/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/seprinteer/spec-large.bmp",
+			"large" : "farriery/heroes/seprinteer/portrait-large.bmp",
+			"small" : "farriery/heroes/seprinteer/portrait-small.bmp"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"army" :
+		[
+			{ "creature" : "faGruntSoldier", "min" : 10, "max" : 15 },
+			{ "creature" : "faCyberDead",    "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro",         "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "faGruntSoldier"
+		}
+	}
+}

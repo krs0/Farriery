@@ -1,0 +1,94 @@
+{
+	"faAcidDragon":
+	{
+		"name" :
+		{
+			"plural" : "Acid Dragons",
+			"singular" : "Acid Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 4,
+			 "min" : 2
+		},
+		"faction" : "farriery",
+		"aiValue" : 18029,
+		"special" : true,
+		"attack" : 30,
+		"cost" :
+		{
+			"gold" : 15000,
+			"mercury" : 10
+		},
+		"damage" :
+		{
+			 "max" : 80,
+			 "min" : 70
+		},
+		"defense" : 30,
+		"fightValue" : 12771,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/acid.DEF",
+			"map" : "farriery/map/acid.def",
+			"iconSmall" : "farriery/iconsSmall/acid.bmp",
+			"iconLarge" : "farriery/iconsBig/acid.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 850,
+		"level" : 10,
+		"sound" :
+		{
+			"attack": "RUSTATTK.wav",
+			"defend": "RUSTDFND.wav",
+			"killed": "RUSTKILL.wav",
+			"move": "RUSTMOVE.wav",
+			"wince": "RUSTWNCE.wav"
+		},
+		"speed" : 17,
+		"abilities" :
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"acidBreath" :
+			{
+				"type" : "ACID_BREATH",
+				"val" : 25,
+				"addInfo" : 20
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 3
+			},
+			"reduceDefence" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 50
+			},
+			"twohexattackbreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		}
+	}
+}

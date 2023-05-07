@@ -1,0 +1,54 @@
+{
+	"maximus" : 
+	{
+		"class" : "engineer",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Maximus",
+			"biography" : "Niewiele wiadomo o prawej rece krola Deyji - kraza plotki, ze jego twarz zostala zdeformowana przez technologie Niebianskiej Kuzni. Nikt jednak nie moze podwazyc jego mistrzowskich wrecz zdolnosci taktycznych.",
+			"specialty" :
+			{
+				"description" : "{Tactics}\r\n\r\nReceives a 5% per level bonus to Tactics skill.",
+				"tooltip" : "Secondary Skill Bonus: Tactics",
+				"name" : "Tactics"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "farriery/heroes/maximus/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/maximus/spec-large.bmp",
+			"large" : "farriery/heroes/maximus/portrait-large.bmp",
+			"small" : "farriery/heroes/maximus/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "faGruntSoldier", "min" : 10, "max" : 15 },
+			{ "creature" : "faCyberDead",    "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro",         "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"tactics" : {
+					"subtype" : "skill.tactics",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

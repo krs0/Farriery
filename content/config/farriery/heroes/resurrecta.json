@@ -1,0 +1,57 @@
+{
+	"resurrecta" : 
+	{
+		"class" : "technik",
+		"female" : true,
+                 "texts" :
+		{
+			"name" : "Resurrecta",
+			"biography" : "Resurrecta nie chce wyjawic nikomu swojego pochodzenia. Planuje odtworzyc system bram Starozytnych. Jest jedna z niewielu osob, ktore znaly Kastore'a przed jego ekspansja na Antadarich i byc moze jedyna, ktora moze go powstrzymac.",
+			"specialty" : 
+			{
+				"description" : "Hero can cast the Resurrection spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Resurrection",
+				"name" : "Resurrection"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "farriery/heroes/resurrecta/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/resurrecta/spec-large.bmp",
+			"large" : "farriery/heroes/resurrecta/portrait-large.bmp",
+			"small" : "farriery/heroes/resurrecta/portrait-small.bmp"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+		"army" :
+		[
+			{ "creature" : "faGruntSoldier", "min" : 10, "max" : 15 },
+			{ "creature" : "faCyberDead",    "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro",         "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

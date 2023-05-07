@@ -1,0 +1,46 @@
+{
+	"julian" :
+	{
+		"class" : "engineer",
+		"female" : false,
+		
+		"texts" :
+		{
+			"name" : "Julian",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sky Fighters and Sky Hunters}\r\n\r\nIncreases the Attack and Defence of any Sky Fighters or Sky Hunters for each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Sky Fighters",
+				"name" : "Sky Fighters"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "farriery/heroes/julian/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/julian/spec-large.bmp",
+			"large" : "farriery/heroes/julian/portrait-large.bmp",
+			"small" : "farriery/heroes/julian/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "faGruntSoldier", "min" : 10, "max" : 15 },
+			{ "creature" : "faCyberDead",    "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro",         "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"creature" : "faSkyFighter"
+		}
+	}
+}

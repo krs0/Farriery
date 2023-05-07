@@ -1,0 +1,88 @@
+{
+	"faMortira":
+	{
+		"name" :
+		{
+			"plural" : "Mortira",
+			"singular" : "Mortira"
+		},
+		"faction" : "farriery",
+		"level": 6,
+		"aiValue" : 1850,
+		"special" : true,
+		"attack" : 19,
+             "cost": 
+            {
+              "gold": 5000
+            },
+		"damage" :
+		{
+			 "max" : 14,
+			 "min" : 9
+		},
+		"defense" : 11,
+		"fightValue" : 1536,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/mortira",
+			"iconSmall" : "farriery/iconsSmall/mortira",
+			"iconLarge" : "farriery/iconsBig/mortira58",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "farriery/battle/projectile/SMCANX.def",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 0,
+		"hitPoints" : 132,
+                "shots" : 24,
+		"sound" :
+		{
+			"killed": "farriery/CANNKILL.wav",
+                        "shoot" : "farriery/CANNSHOT.wav",
+			"wince":  "farriery/CANNWNCE.wav"
+		},
+		"speed" : 0,
+		"abilities" :
+		{
+        		"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"deathStare" : 
+			{ 
+				"subtype" : 0, 
+				"type" : "DEATH_STARE", 
+				"val" : 25 
+			},
+		      "noRetaliation" :
+			{
+				"type" : "NO_RETALIATION",
+				 "val" : 0,
+			},
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			}
+		}
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"faCyberHunter":
+	{
+		"name" :
+		{
+			"plural" : "Carnivores",
+		      "singular" : "Carnivore"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "farriery",
+		"aiValue" : 324,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 3
+		},
+		"defense" : 7,
+		"fightValue" : 332,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/cyber.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.2 },
+			"map" : "farriery/map/cyber.def",
+			"iconSmall" : "farriery/iconsSmall/cyber.bmp",
+			"iconLarge" : "farriery/iconsBig/cyber.bmp",
+			"timeBetweenFidgets" : 1
+		},
+        "hasDoubleWeek": true,
+		"growth" : 8,
+		"hitPoints" : 16,
+		"level" : 2,
+		"sound" :
+		{
+			"attack" : "farriery/CHATTACK.wav",
+			"defend" : "farriery/CHDEFEND.wav",
+			"killed" : "farriery/CHDIE.wav",
+			"move"   : "farriery/CHMOVE.wav",
+			"wince"  : "farriery/CHWINCE.wav"
+		},
+		"speed" : 7,
+        "abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"enemyDefenceReduction" : 
+			{ 
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 25
+            },
+			"extraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		}
+	}
+}

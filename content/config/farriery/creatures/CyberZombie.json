@@ -1,0 +1,63 @@
+{
+	"faCyberZombie":
+	{
+		"name" :
+		{
+			"plural" : "Cyber Zombies",
+			"singular" : "Cyber Zombie"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 18
+		},
+		"faction" : "farriery",
+		"aiValue" : 215,
+		"attack" : 7,
+		"cost" :
+		{
+			"gold" : 170
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 175,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/CR200.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/militian.def",
+			"iconSmall" : "farriery/iconsSmall/CPrS200F.bmp",
+			"iconLarge" : "farriery/iconsBig/CPrL200B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+	
+		"growth" : 8,
+		"hitPoints" : 20,
+		"level" : 2,
+		"sound" :
+		{
+			"attack" : "farriery/S199ATTK.wav",
+			"defend" : "farriery/S199DFND.wav",
+			"killed" : "farriery/S199KILL.wav",
+			"move"   : "farriery/S199MOVE.wav",
+			"wince"  : "farriery/S199WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+                       "non living" :
+			{
+				"type" : "NON_LIVING"
+			},    
+			"deathCloundImmunity"	:
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud"
+			}
+		}
+	}
+}

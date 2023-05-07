@@ -1,0 +1,99 @@
+{
+	"faArkhon":
+	{
+		"name" :
+		{
+			"plural" : "Arkhons",
+			"singular" : "Arkhon"
+		},
+		"faction" : "farriery",
+		"aiValue" : 1092,
+		"attack" : 5,
+		"damage" :
+		{
+			 "max" : 15,
+			 "min" : 7
+		},
+		"defense" : 5,
+		"fightValue" : 980,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/arkhon.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/arkhon.def",
+			"iconSmall" : "farriery/iconsSmall/arkhon.bmp",
+			"iconLarge" : "farriery/iconsBig/arkhon.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "farriery/battle/projectile/arkhShoot.DEF",
+				"offset" :
+				{
+					"lowerX" : 130,
+					"lowerY" : -44,
+					"middleX" : 124,
+					"middleY" : -43,
+					"upperX" : 143,
+					"upperY" : -68
+				},
+				"attackClimaxFrame" : 6,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+
+		"growth" : 1,
+		"hitPoints" : 50,
+        "level" : 0,
+		"shots" : 24,
+		"doubleWide" : false,
+		"special" : true,
+		"sound" :
+		{
+			"attack" : "farriery/ARKATTK.wav",
+			"defend" : "farriery/ARKDFND.wav",
+			"killed" : "farriery/ARKKILL.wav",
+			"move"   : "farriery/ARKMOVE.wav",
+			"wince"  : "farriery/ARKWNCE.wav",
+                        "shoot"  : "farriery/ARKSHOT.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+        		"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 2
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.haste",
+				"val" : 3
+                  },
+                  "noMind":
+                  {
+                   "type": "MIND_IMMUNITY"
+			}
+		}
+	}
+}

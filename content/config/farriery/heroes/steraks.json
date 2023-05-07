@@ -1,0 +1,57 @@
+{
+	"steraks" : 
+	{
+		"class" : "engineer",
+		"female" : false,
+"texts" :
+		{
+			"name" : "Steraks",
+			"biography" : "Steraks mad scientist, who became the undead from their experiments, but continuously works.",
+			"specialty" :
+			{
+				"description" : "Can upgrade Walking Deads and Zombies in Cyber Deads and Cyber Zombies.",
+				"name" : "Special Upgrades",
+				"tooltip" : "Free upgrades Walking Deads"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "farriery/heroes/steraks/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/steraks/spec-large.bmp",
+			"large" : "farriery/heroes/steraks/portrait-large.bmp",
+			"small" : "farriery/heroes/steraks/portrait-small.bmp"
+		},
+               "spellbook" :
+		[
+			"teleport"		
+                ],
+               "army" :
+		[
+			{ "creature" : "faGruntSoldier", "min" : 10, "max" : 15 },
+			{ "creature" : "faCyberDead",    "min" : 6, "max" : 9 },
+			{ "creature" : "faPyro",         "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.faCyberDead",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"faCyberDead" : { "subtype" : "creature.walkingDead" },
+				"faCyberZombie" : { "subtype" : "creature.zombieLord" }
+			}
+		}
+	}
+}

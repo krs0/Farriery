@@ -1,0 +1,70 @@
+{
+	"faMechFighter":
+	{
+		"name" :
+		{
+			"plural" : "Bronze Masterminds",
+			"singular" : "Bronze Mastermind"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"faction" : "farriery",
+		"aiValue" : 2079,
+		"attack" : 14,
+		"cost" :
+		{
+			"gold" : 1050
+			
+		},
+		"damage" :
+		{
+			 "max" : 28,
+			 "min" : 15
+		},
+		"defense" : 15,
+		"fightValue" : 1744,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/Mecha.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/mechF",
+			"iconSmall" : "farriery/iconsSmall/Mecha.bmp",
+			"iconLarge" : "farriery/iconsBig/Mecha.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 120,
+		"level" : 6,
+		"upgrades":
+		[
+			"faMechWarrior"
+		],
+		"sound" :
+		{
+			"attack" : "farriery/S209ATTK.wav",
+			"defend" : "farriery/S209DFND.wav",
+			"killed" : "farriery/S209KILL.wav",
+			"move"   : "farriery/S209MOVE.wav",
+			"wince"  : "farriery/S209WNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+		"no morale" :
+			{
+				"type" : "NO_MORALE"
+			},
+			"castRay" :
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"val" : 40,
+				"subtype" : "spell.disruptingRay",
+				"addInfo" : 2
+			}
+		}
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"name" : "Farriery",
+	"description" : "Town Farriery based on old Forge project.",
+	"author" : "Polish modders team, zeryss",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "2.0",
+	"modType" : "Town",
+	"depends" : ["spoiled_land-mod"], 
+	
+
+	
+	"factions" :
+	[
+		"config/farriery/town/buildings.json",
+		"config/farriery/town/faction.json",
+		"config/farriery/town/siege.json",
+		"config/farriery/town/spells.json",
+		"config/farriery/town/structures.json",
+		"config/farriery/town/puzzle.json"
+	],
+	
+     "creatures" :
+	[
+		"config/farriery/creatures/CyberDead.json",
+		"config/farriery/creatures/CyberZombie.json",
+                "config/farriery/creatures/GruntSoldier.json",
+		"config/farriery/creatures/FootSoldier.json",
+		"config/farriery/creatures/Pyro.json",
+		"config/farriery/creatures/Pyromaniac.json",
+                "config/farriery/creatures/mechFighter.json",
+		"config/farriery/creatures/mechWarrior.json",
+	        "config/farriery/creatures/Droid.json",
+                "config/farriery/creatures/CyberHunter.json",
+                "config/farriery/creatures/SkyFighter.json",
+		"config/farriery/creatures/SkyHunter.json",
+		"config/farriery/creatures/BattleDroid.json",
+		"config/farriery/creatures/WarDroid.json",
+                "config/farriery/creatures/mechFighter.json",
+		"config/farriery/creatures/mechWarrior.json",
+		"config/farriery/creatures/MechanicalDragon.json",
+		"config/farriery/creatures/HydraulicDragon.json",
+                "config/farriery/creatures/Arkhon.json",
+                "config/farriery/creatures/AcidDragon.json",
+                "config/farriery/creatures/Mortira.json"
+	],
+	"heroClasses" :
+	[
+		"config/farriery/classes/Engineer.json",
+		"config/farriery/classes/Technik.json"
+
+	],
+    "artifacts":
+        [              
+                "config/farriery/artifacts/MortiraArt.json"        
+        ],
+	"heroes" :
+	[
+		"config/farriery/heroes/steraks.json",
+                "config/farriery/heroes/Horna.json",
+                "config/farriery/heroes/seprinteer.json",
+		"config/farriery/heroes/Meltes.json",
+		"config/farriery/heroes/singhel.json",
+		"config/farriery/heroes/niclas.json",
+		"config/farriery/heroes/charity.json",
+		"config/farriery/heroes/sunni.json",
+		"config/farriery/heroes/kastore.json",
+		"config/farriery/heroes/rengist.json",
+		"config/farriery/heroes/minore.json",
+		"config/farriery/heroes/leane.json",
+		"config/farriery/heroes/tarkin.json",
+		
+		"config/farriery/heroes/cistrict.json",
+		"config/farriery/heroes/karen.json",
+		"config/farriery/heroes/resurrecta.json"		
+	],
+    "objects" :
+        [ 
+         "config/farriery/dwellings"
+	]
+}

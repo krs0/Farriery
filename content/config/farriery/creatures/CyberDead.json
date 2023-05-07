@@ -1,0 +1,67 @@
+{
+	"faCyberDead":
+	{
+		"name" :
+		{
+			"plural" : "Cyber Deads",
+		        "singular" : "Cyber Dead"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 50,
+			 "min" : 20
+		},
+		"faction" : "farriery",
+		"aiValue" : 175,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 145
+		},
+		"damage" :
+		{
+			 "max" : 4,
+			 "min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 145,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/CR199.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/guard.def",
+			"iconSmall" : "farriery/iconsSmall/CPrS199F.bmp",
+			"iconLarge" : "farriery/iconsBig/CPrL199B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+                "hasDoubleWeek": true,
+		"growth" : 8,
+		"hitPoints" : 20,
+		"level" : 2,
+		"upgrades":
+		[
+			"faCyberZombie"
+		],
+		"sound" :
+		{
+			"attack" : "farriery/S199ATTK.wav",
+			"defend" : "farriery/S199DFND.wav",
+			"killed" : "farriery/S199KILL.wav",
+			"move"   : "farriery/S199MOVE.wav",
+			"wince"  : "farriery/S199WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+   	     "nonliving":
+			{	
+				"type" : "NON_LIVING"
+			},    
+		"deathCloundImmunity"	:
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud"
+			}
+		}
+	}
+}
