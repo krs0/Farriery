@@ -1,21 +1,18 @@
 {
-	"mortira":
-        {
-	"type" : ["HERO"],
-	"warMachine":"faMortira",
-        "class": "SPECIAL",
-        "value": 5000,
-        "slot":"MACH1",
-        "text":
-		{
-			"name": "Mortira",
-			"description": "{Mortira}\r\n\r\nThe universal war machine mortira allows you to attack the walls of fortified enemy units.",
-			"event": "The universal war machine mortira allows you to attack the walls of fortified enemy units."
+	"mortira": {
+		"type" : ["HERO"],
+		"warMachine" : "faMortira",
+		"slot" : "MACH1",
+        "class" : "SPECIAL",
+        "value" : 5000,
+		"graphics": {
+			"image" : "farriery/iconsSmall/artifacts/mortira.bmp",
+			"map" : "farriery/map/artifacts/blank.def"
 		},
-		"graphics":
-		{
-			"image": "farriery/iconsSmall/artifacts/mortira.bmp",
-			"map"  :   "farriery/map/artifacts/blank.def"
+		"text" : {
+			"name": "Mortira",
+			"description" : "{Mortira}\r\n\r\nThe universal war machine mortira allows you to attack the walls of fortified enemy units.",
+			"event" : "The universal war machine mortira allows you to attack the walls of fortified enemy units."
 		}
 	}
 }
