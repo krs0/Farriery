@@ -32,7 +32,7 @@
 				[ "faMechFighter", "faMechWarrior"],
 				[ "faMechanicalDragon", "faHydraulicDragon" ]
 			],
-			"moatDamage" : 90,
+			"moatAbility" : "farrieryMoat",
 			"horde" : [ 0, -1 ],
 			"mageGuild" : 5,
 			"primaryResource" : "mercury",

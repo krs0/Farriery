@@ -5,9 +5,7 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "2.1",
 	"modType" : "Town",
-	"depends" : ["spoiled_land-mod"], 
-	
-
+	"depends" : ["spoiled-land"], 
 	
 	"factions" :
 	[
@@ -74,7 +72,11 @@
 		"config/farriery/heroes/resurrecta.json"		
 	],
     "objects" :
-        [ 
+    [ 
          "config/farriery/dwellings"
+	],
+	"spells" :
+	[
+		"config/farriery/spells/moat.json"
 	]
 }
