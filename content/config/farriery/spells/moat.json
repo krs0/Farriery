@@ -61,7 +61,7 @@
                         "type":"core:moat",
                         "hidden" : false,
                         "trap" : true,
-                        "triggerAbility" : "core:farrieryMoatTrigger",
+                        "triggerAbility" : "farrieryMoatTrigger",
                         "dispellable" : false,
                         "removeOnTrigger" : false,
                         "moatDamage" : 90,
